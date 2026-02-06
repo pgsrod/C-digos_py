@@ -12,7 +12,7 @@ def gerar_dados(qtd, minimo, maximo):
 # o  "_" (underline) serve para dizer para o python que esse for é apenas para executar o comando várias vezes. 
 
     for _ in range (qtd):
-        dados.append(random.radint(minimo, maximo)) 
+        dados.append(random.randint(minimo, maximo)) 
     
     return dados
 
